@@ -31,7 +31,7 @@ $ repo sync
 
 6. Build BUCK plugins. 
 ```
-$ buck build //tools/build/buck-plugin:onos
+$ buck build buck-plugin
 ```
 
 7. Copy the buck plugin under bin directory.
