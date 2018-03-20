@@ -50,5 +50,6 @@ $ buck build onos
 ```
 $ onos-app $OC1 reinstall! buck-out/gen/apps/openstacknetworking/onos-apps-openstacknetworking-oar/app.oar
 $ onos-app $OC1 reinstall! buck-out/gen/apps/openstacknode/onos-apps-openstacknode-oar/app.oar
+$ onos-app $OC1 reinstall! buck-out/gen/apps/openstacknetworkingui/onos-apps-openstacknetworkingui-oar/app.oar
 ```
 
