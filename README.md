@@ -24,25 +24,20 @@ $ cd ~/git/sona-repo
 $ repo init -u https://github.com/sonaproject/onos-sona-repo.git
 ```
 
-5. Clone all repositories (ONOS + SONA Apps + SONA buck tool set).
+5. Clone all repositories (Stable branch of ONOS + Master branch of ONOS + SONA buck tool set).
 ```
 $ repo sync
 ```
 
-6. Build BUCK plugins. 
-```
-$ buck build buck-plugin
-```
-
-7. Run build.sh script to build latest version of SONA apps against stable version of ONOS.
+6. Run build.sh script to build latest version of SONA apps against stable version of ONOS.
 Note that the resulting SONA artifacts will be located under sona-out directory.
 ```
 $ ./build.sh
 ```
 
-8. Run ONOS either in local or in remote.
+7. Run ONOS either in local or in remote.
 
-9. Deploy SONA artifacts. Done!
+8. Deploy SONA artifacts. Done!
 ```
 $ onos-app $OC1 reinstall! sona-out/openstacknetworking.oar
 $ onos-app $OC1 reinstall! sona-out/openstacknode.oar
