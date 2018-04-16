@@ -34,22 +34,18 @@ $ repo sync
 $ buck build buck-plugin
 ```
 
-7. Copy the buck plugin under bin directory.
+7. Run build.sh script to build latest version of SONA apps against stable version of ONOS.
+Note that the resulting SONA artifacts will be located under sona-out directory.
 ```
-$ mkdir -p bin/plugins && cp buck-out/gen/tools/build/buck-plugin/onos.jar bin/plugins
-```
-
-8. Build SONA project separately. Following cmd will only build SONA project with ONOS dependencies.
-```
-$ buck build onos
+$ ./build.sh
 ```
 
-9. Run ONOS either in local or in remote.
+8. Run ONOS either in local or in remote.
 
-10. Deploy SONA artifacts. Done!
+9. Deploy SONA artifacts. Done!
 ```
-$ onos-app $OC1 reinstall! buck-out/gen/apps/openstacknetworking/onos-apps-openstacknetworking-oar/app.oar
-$ onos-app $OC1 reinstall! buck-out/gen/apps/openstacknode/onos-apps-openstacknode-oar/app.oar
-$ onos-app $OC1 reinstall! buck-out/gen/apps/openstacknetworkingui/onos-apps-openstacknetworkingui-oar/app.oar
+$ onos-app $OC1 reinstall! sona-out/openstacknetworking.oar
+$ onos-app $OC1 reinstall! sona-out/openstacknode.oar
+$ onos-app $OC1 reinstall! sona-out/openstacknetworkingui.oar
 ```
 
