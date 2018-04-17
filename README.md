@@ -35,9 +35,11 @@ Note that the resulting SONA artifacts will be located under sona-out directory.
 $ ./build.sh
 ```
 
-7. Run ONOS either in local or in remote.
+7. [Optional] Run verify.sh script to execute unit tests for SONA apps.
 
-8. Deploy SONA artifacts. Done!
+8. Run ONOS either in local or in remote.
+
+9. Deploy SONA artifacts to ONOS. Done!
 ```
 $ onos-app $OC1 reinstall! sona-out/openstacknetworking.oar
 $ onos-app $OC1 reinstall! sona-out/openstacknode.oar
