@@ -36,6 +36,9 @@ $ ./build.sh
 ```
 
 7. [Optional] Run verify.sh script to execute unit tests for SONA apps.
+```
+$ ./verify.sh
+```
 
 8. Run ONOS either in local or in remote.
 
