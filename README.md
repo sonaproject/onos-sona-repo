@@ -44,8 +44,12 @@ $ ./verify.sh
 
 9. Deploy SONA artifacts to ONOS. Done!
 ```
-$ onos-app $OC1 reinstall! sona-out/openstacknetworking.oar
-$ onos-app $OC1 reinstall! sona-out/openstacknode.oar
-$ onos-app $OC1 reinstall! sona-out/openstacknetworkingui.oar
+$ onos-app $ONOS_IP reinstall! sona-out/openstacknode.oar
+$ onos-app $ONOS_IP reinstall! sona-out/openstacknetworking.oar
+$ onos-app $ONOS_IP reinstall! sona-out/openstacknetworkingui.oar
 ```
 
+10. Wipe out workspace.
+```
+$ ./clean.sh
+```
