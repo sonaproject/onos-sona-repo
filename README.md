@@ -4,6 +4,7 @@ This project is intended for building SONA project from disaggregated ONOS repos
 Prerequisite for the build machine is JDK 8.x (OracleJDK or OpenJDK) and Python 2.x.
 
 1. Install repo.
+
 In MacOSX:
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -19,6 +20,7 @@ $ sudo mv ~/bin/repo /bin/repo
 ```
 
 2. Install software dependencies.
+
 In RHEL (CentOS):
 ```
 $ sudo yum install -y zip unzip bzip2
