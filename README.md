@@ -23,12 +23,12 @@ $ sudo mv ~/bin/repo /bin/repo
 
 In RHEL (CentOS):
 ```
-$ sudo yum install -y zip unzip bzip2
+$ sudo yum install -y zip unzip bzip2 git
 ```
 
 In Debian (Ubuntu):
 ```
-$ sudo apt-get install -y zip unzip bzip2
+$ sudo apt-get install -y zip unzip bzip2 git
 ```
 
 
