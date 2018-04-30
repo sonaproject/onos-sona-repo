@@ -1,17 +1,34 @@
 # Build SONA from Disaggregated ONOS Repository
 
 This project is intended for building SONA project from disaggregated ONOS repository.
-Note that following tutorial is only for MAC OSX.
+Prerequisite for the build machine is JDK 8.x (OracleJDK or OpenJDK) and Python 2.x.
 
-1. Install homebrew.
+1. Install repo.
+In MacOSX:
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-2. Install repo using brew.
-```
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ brew install repo
 ```
+
+In Linux:
+```
+$ mkdir -p ~/bin
+$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+$ chmod a+x ~/bin/repo
+$ sudo mv ~/bin/repo /bin/repo
+```
+
+2. Install software dependencies.
+In RHEL (CentOS):
+```
+$ sudo yum install -y zip unzip bzip2
+```
+
+In Debian (Ubuntu):
+```
+$ sudo apt-get install -y zip unzip bzip2
+```
+
 
 3. Create a directory for placing ONOS and SONA source code.
 ```
