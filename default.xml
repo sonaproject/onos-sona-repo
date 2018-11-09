@@ -13,7 +13,7 @@
   <project path="01-stable-onos" name="onos" revision="3082b129f2d56c6c448c4f9eb990f8a3a95aa520" remote="github-onf" />
 
   <!-- We only refer to SONA project source from master-onos directory -->
-  <project path="02-master-onos" name="onos" revision="master" remote="github-onf" />
+  <project path="02-master-onos" name="onos" revision="onos-1.15" remote="github-onf" />
   <project path="03-onos-patch" name="onos-sona-patch" revision="master" remote="github-sona" />
   <project path="./" name="onos-sona-bucktool" revision="master" remote="github-sona" />
 
