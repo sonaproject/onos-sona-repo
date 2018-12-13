@@ -15,7 +15,7 @@
   <!-- We only refer to SONA project source from master-onos directory -->
   <project path="02-master-onos" name="onos" revision="onos-1.15" remote="github-onf" />
   <!-- We clone the ONOS-1.15-rc1 to support legacy BUCK build -->
-  <project path="04-buck-onos" name="onos" revision="6d06fce8590d966cc302b3d18f45bd95512559d0" remote="github-onf" />
+  <project path="04-buck-onos" name="onos" revision="f822bafdbae0cd427b5b8729953aa5152232b2b1" remote="github-onf" />
   <project path="03-onos-patch" name="onos-sona-patch" revision="master" remote="github-sona" />
   <project path="./" name="onos-sona-bucktool" revision="master" remote="github-sona" />
 
