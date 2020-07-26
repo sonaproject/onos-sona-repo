@@ -3,14 +3,14 @@
 
   <!-- ONF repository -->
   <remote  name="github-onf"
-           fetch="https://github.com/opennetworkinglab/"
+           fetch="https://gerrit.onosproject.org/"
            review="https://gerrit.onosproject.org/" />
 
   <!-- SONA repository -->
   <remote  name="github-sona"
            fetch="https://github.com/sonaproject/" />
 
-  <project path="01-stable-onos" name="onos" revision="cf18713872e75374b60b39a92e10a40d17a1e1db" remote="github-onf" />
+  <project path="01-stable-onos" name="onos" revision="4170ab79fdbeb5390aff9f16407717e98bb17ad9" remote="github-onf" />
 
   <!-- We only refer to SONA project source from master-onos directory -->
   <project path="02-master-onos" name="onos" revision="onos-2.2" remote="github-onf" />
