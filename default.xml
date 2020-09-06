@@ -10,7 +10,7 @@
   <remote  name="github-sona"
            fetch="https://github.com/sonaproject/" />
 
-  <project path="01-stable-onos" name="onos" revision="4170ab79fdbeb5390aff9f16407717e98bb17ad9" remote="github-onf" />
+  <project path="01-stable-onos" name="onos" revision="5abc9f0e2d96a9b30b2f3f41bd5cb44aebae60a7" remote="github-onf" />
 
   <!-- We only refer to SONA project source from master-onos directory -->
   <project path="02-master-onos" name="onos" revision="onos-2.2" remote="github-onf" />
